@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+.firstPage{
+    background-image: url(./Sketch003.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+   
+}
+.main{
+    list-style-type: none;
+    float: right;
+    margin-top: 50px;
+
+}
+.left h1{
+    text-align: left;
+    letter-spacing: 7px;
+    color: darkblue;
+}
+
+.left h5{
+    padding: 1px;
+    color:skyblue;
+
+}
+
+
+  ul li{ list-style-type: none;
+    display: inline-block;
+ 
+
+
+}
+ul li a{
+    text-decoration: none;
+    padding: 5px 5px;
+    color: skyblue ;
+
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h3{
+    color: skyblue;
+    font-size: 70px;
+}
+ul li.active a{
+    background-color: black;
+}
+.secondPage{
+    background-image: url(./Sketch002.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: left;
+
+}
+.left-first h1
+{
+    text-align: left;
+    letter-spacing: 7px;
+    color: darkblue;
+}
+.left-first h5{
+    padding: 1px;
+    color:skyblue;
+}
+.main-first{
+    float: right;
+    margin-top: 50px;
+}
+.forthPage{
+    background-image: url(./Sketch003.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: left;
+}
+.main-second{
+    float: right;
+    margin-top: 50px;
+}
+.fifthPage{
+
+    background-image: url(./Sketch003.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: left;
+}
+.main-third{
+    float: right;
+    margin-top: 50px;
+}
